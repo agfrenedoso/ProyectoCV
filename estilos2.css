@@ -1,0 +1,130 @@
+* {
+    /* outline: 1px solid orange; */
+    margin:0px;
+    padding:0px;
+    text-decoration-color: #edeef1; 
+    font-family: 'Rubik', sans-serif;  
+    color: #2e95e9; 
+}
+
+body{
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/id/1336271758/es/foto/programaci%C3%B3n-de-c%C3%B3digo-fuente-en-pantalla-digital-desarrollador-de-software-y-lenguaje-html-de.jpg?b=1&s=612x612&w=0&k=20&c=rvRCY-Jh31OH2fBVwegbwLZNJKv5HlmN6Mr5wXbegH8=);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#caja {
+    width: 1000px;
+    margin: 5px auto;
+    text-align: left;
+    background: #021f36;
+}
+
+#encabezado {
+    background: #021f36;
+    border: 1px solid #151859;
+    text-align: center;
+}
+
+#apellido, #pie, #contacto{
+    color: #3fa1ec; 
+    
+}
+
+#foto, #nombre{
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+    padding:10px;
+    
+}
+#nombre{
+    padding:55px
+}
+
+aside {
+    width: auto;
+    background: #021f36 ;
+    border: 1px solid #7f5abb;
+    padding: 30px;
+    margin-bottom: 1px;
+ }
+
+#menu {
+    text-align: center;
+    padding: 0px 0px;
+    text-align:center;
+    background-color:#2d15b7;
+    padding:3px 5px;
+    display:block; }
+
+#menuhorizontal li {
+float:left;
+}
+
+#info:hover, #cont:hover, #form:hover{
+        text-decoration: none;
+        background-color: #2f3675;
+        color:#f46b30 
+}
+
+#exp:hover{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    color: #3fa1ec;
+    margin:10px;
+    padding:5px;
+    
+ }
+
+#exp1, #exp2, #est1, #est2{
+    color: #2e95e9;
+    display: block;
+    margin:10px;
+    padding:5px;
+}
+
+#pie {
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #7f5abb;
+    list-style: none;
+ }
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#apellido{
+    padding: 30px;
+    text-shadow: rgb(164, 101, 228) 3px 3px 5px;
+}
+
+#perfil{
+   
+    width: 700px;
+    text-align: justify;
+    margin: 30px;
+    padding-left:100px;
+}
+
+#resumen {
+ border-bottom: 1px solid #f46b30;
+}
